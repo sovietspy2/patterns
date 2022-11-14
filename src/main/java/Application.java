@@ -3,6 +3,10 @@ import creational.builder.BuilderExample;
 import creational.factorymethod.FactoryMethodExample;
 import creational.prototype.PrototypeExample;
 import creational.singleton.SingletonExample;
+import structural.adapter.AdapterExample;
+import structural.bridge.BridgeExample;
+import structural.composite.CompositeExample;
+import structural.decorator.DecoratorExample;
 
 public class Application {
 
@@ -17,6 +21,14 @@ public class Application {
         PrototypeExample.run();
 
         SingletonExample.run();
+
+        AdapterExample.run();
+
+        BridgeExample.run();
+
+        CompositeExample.run();
+
+        DecoratorExample.run();
 
     }
 }
