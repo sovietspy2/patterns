@@ -7,6 +7,7 @@ import structural.adapter.AdapterExample;
 import structural.bridge.BridgeExample;
 import structural.composite.CompositeExample;
 import structural.decorator.DecoratorExample;
+import structural.facade.FacadeExample;
 
 public class Application {
 
@@ -29,6 +30,8 @@ public class Application {
         CompositeExample.run();
 
         DecoratorExample.run();
+
+        FacadeExample.run();
 
     }
 }
