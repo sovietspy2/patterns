@@ -10,6 +10,8 @@ public class StateExample {
         document.publish();
         document.publish();
 
+        document.appendData("test");
+
 
     }
 }
