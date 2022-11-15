@@ -1,3 +1,4 @@
+import behavioral.memento.MementoExample;
 import creational.abstractfactory.AbstractFactoryExample;
 import creational.builder.BuilderExample;
 import creational.factorymethod.FactoryMethodExample;
@@ -38,5 +39,7 @@ public class Application {
         FlyweightExample.run();
 
         ProxyExample.run();
+
+        MementoExample.run();
     }
 }
