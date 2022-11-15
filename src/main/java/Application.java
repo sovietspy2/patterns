@@ -9,6 +9,7 @@ import structural.composite.CompositeExample;
 import structural.decorator.DecoratorExample;
 import structural.facade.FacadeExample;
 import structural.flyweight.FlyweightExample;
+import structural.proxy.ProxyExample;
 
 public class Application {
 
@@ -36,5 +37,6 @@ public class Application {
 
         FlyweightExample.run();
 
+        ProxyExample.run();
     }
 }
