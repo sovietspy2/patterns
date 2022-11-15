@@ -8,6 +8,7 @@ import structural.bridge.BridgeExample;
 import structural.composite.CompositeExample;
 import structural.decorator.DecoratorExample;
 import structural.facade.FacadeExample;
+import structural.flyweight.FlyweightExample;
 
 public class Application {
 
@@ -32,6 +33,8 @@ public class Application {
         DecoratorExample.run();
 
         FacadeExample.run();
+
+        FlyweightExample.run();
 
     }
 }
