@@ -1,4 +1,5 @@
 import behavioral.memento.MementoExample;
+import behavioral.state.StateExample;
 import creational.abstractfactory.AbstractFactoryExample;
 import creational.builder.BuilderExample;
 import creational.factorymethod.FactoryMethodExample;
@@ -41,5 +42,7 @@ public class Application {
         ProxyExample.run();
 
         MementoExample.run();
+
+        StateExample.run();
     }
 }
