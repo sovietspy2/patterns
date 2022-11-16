@@ -1,3 +1,4 @@
+import behavioral.mediator.MediatorExample;
 import behavioral.memento.MementoExample;
 import behavioral.state.StateExample;
 import creational.abstractfactory.AbstractFactoryExample;
@@ -44,5 +45,7 @@ public class Application {
         MementoExample.run();
 
         StateExample.run();
+
+        MediatorExample.run();
     }
 }
