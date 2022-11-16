@@ -8,6 +8,14 @@ public class Document {
     private final List<String> data = new ArrayList<>();
     private DocumentState state = DocumentState.DRAFT;
 
+    public DocumentState getState() {
+        return state;
+    }
+
+    public List<String> getData() {
+        return data;
+    }
+
     public void publish() {
 
         var prevState = state;

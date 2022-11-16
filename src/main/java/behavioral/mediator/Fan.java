@@ -9,6 +9,7 @@ public class Fan {
     }
 
     public boolean isOn() {
+        System.out.println(this);
         return isOn;
     }
 

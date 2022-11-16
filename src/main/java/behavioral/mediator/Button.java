@@ -8,6 +8,7 @@ public class Button {
     }
 
     public void press() {
+        System.out.println("Button pressed!");
         mediator.press();
     }
 }
